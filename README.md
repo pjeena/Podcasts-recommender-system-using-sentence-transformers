@@ -1,5 +1,3 @@
-# Podcasts-recommender-system-using-transformers
-
 # Apple podcast recommendation system using Tf-IDF and transformers
 ==============================
 
