@@ -1,8 +1,7 @@
 # Apple podcast recommendation system using Tf-IDF and transformers
 ==============================
 
-APP LINK : https://podcast-recomm-using-transformer-piyush.streamlit.app/
-
+APP LINK : https://podcasts-recommendation-system-using-tfidf-and-transformers.streamlit.app/
 Recommends podcasts based on user input
 
 Project Organization
