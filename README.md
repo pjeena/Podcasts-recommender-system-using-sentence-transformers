@@ -3,6 +3,10 @@
 
 APP LINK : https://podcasts-recommendation-system-using-tfidf-and-transformers.streamlit.app/
 
+DataVisualization : https://nbviewer.org/github/pjeena/Podcasts-recommender-system-using-sentence-transformers/blob/main/notebooks/EDA.ipynb
+
+AWS EC2 instance deployment : 
+
 Recommends podcasts based on user input
 
 Project Organization
