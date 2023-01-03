@@ -4,6 +4,9 @@ by Piyush Jeena
 APP LINK : [Podcasts Recommendation Engine](https://podcasts-recommendation-system-using-tfidf-and-transformers.streamlit.app)
 
 Deployment on AWS EC2 instance  ::  ```Private```
+## Overview 
+
+With the growth of podcasting over the past few years, it becomes increasingly difficult for users to discover new podcasts they may enjoy. Most listeners are cautious or hesitant to try new podcasts since they already have a small number of favorites. Users cannot listen to the first ten seconds or skim through the preview of a podcast, unlike with music or movies, to determine whether they would enjoy it. As a matter of fact, it happened to me while I was looking for french podcasts to learn the language. It might be difficult to match users with podcasts they would like because podcasts are typically lengthy and their topics vary widely. Additionally, due to the sheer volume of podcasts and podcast episodes, it's nearly impossible for users to navigate through them. However, we can potentially aggregate metadata about podcasts and employ various NLP techniques to recommend new, similar podcasts that they may enjoy.
 
 ## Data Collection
 
