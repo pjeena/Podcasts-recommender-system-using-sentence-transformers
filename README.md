@@ -20,9 +20,7 @@ The first step was to  tokenize the podcasts description based on word-embedding
 
 ### TF_IDF
 The word-embeddings were generated based on the 500-600(this can be tuned) most commonly occurring words in the dataset, excluding stopwords.
-```
-Give the example
-```
+
 
 ### Sentence transformer model : [all-MiniLM](https://www.sbert.net/docs/pretrained_models.html)
 
