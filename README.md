@@ -22,7 +22,7 @@ The first step was to  tokenize the podcasts description based on word-embedding
 The word-embeddings were generated based on the 500-600(this can be tuned) most commonly occurring words in the dataset, excluding stopwords.
 
 
-### Sentence transformer model : [all-MiniLM](https://www.sbert.net/docs/pretrained_models.html)
+### Sentence transformer model : [all-* ](https://www.sbert.net/docs/pretrained_models.html)
 
 These models are trained on all available training data (more than 1 billion training pairs) and are designed as general purpose models. This model helps in extracting the semantic similarities from corpus. The embedding generation process is in [model.py](https://github.com/pjeena/Podcasts-recommender-system-using-sentence-transformers/blob/main/src/model.py) under the src folder.
 
