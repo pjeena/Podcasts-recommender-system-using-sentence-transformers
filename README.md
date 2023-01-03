@@ -63,6 +63,13 @@ The web UI for the system was done on [Streamlit(app.py under src)](https://podc
 ![My Image](streamlit.jpeg)
 
 
+## Future Work
+
+* Collect more podcast data (include podcast episodes transcriptions)
+* Recommend podcast episodes (granular recommendations)
+* Try collaborative filtering since the user reviews data is also available
+* The recommendation system can be taken to an online learning system since it has two advanatges : quality and scale.
+
 
 ## Authors
 
@@ -77,19 +84,6 @@ This project is licensed under the MIT License.
 * Thanks for reading.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Table of contents
 
 Project Organization
 ------------
