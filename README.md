@@ -12,11 +12,7 @@ Data was collected through web scraping from [itunes](https://podcasts.apple.com
 
 ## Data Visualization
 
-Much of the initial exploration of the dataset was done in the notebook **EDA.ipynb** present in the notebooks folder. Since it has ploty visualizations which don't render properly sometimes, one can see the notebook here : [EDA](https://nbviewer.org/github/pjeena/Podcasts-recommender-system-using-sentence-transformers/blob/main/notebooks/EDA.ipynb)
-
-```
-Give examples
-```
+Much of the initial exploration of the dataset was done in the notebook **EDA.ipynb** present in the notebooks folder. Since it has ploty visualizations which don't render properly sometimes, one can view the notebook here : [EDA](https://nbviewer.org/github/pjeena/Podcasts-recommender-system-using-sentence-transformers/blob/main/notebooks/EDA.ipynb)
 
 ## Modelling
 
@@ -38,10 +34,10 @@ These models are trained on all available training data (more than 1 billion tra
 Cosine-similarity technique was used to recommend new podcasts based on the user input. A user can input query in two ways :
 
 ***
-* Enter a podcast which he/she has listened before
-* Enter a general theme like health, technology , climate , language learning etc.
+* Enter a podcast(for ex Lex Fridman Podcast) which he/she has listened before
+* Enter a general theme like health, technology and machine learning , climate , language learning etc.
 
-When a user enters a query, an averaged word-embedding vector is generated and compared with the embeddings of the dataset using cosine-similarities to generate similarity scores. The top n(5 , 10 or 20....) podcasts are recommended based on the similarity scores. 
+When a user enters a query, an averaged word-embedding vector is generated and compared with the embeddings of the dataset using cosine-similarities to generate similarity scores. The top n(5 , 10 or 20....) podcasts are recommended based on the calculated similarity scores. 
 
 
 
@@ -124,20 +120,8 @@ Project Organization
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+       ├── __init__.py    <- Makes src a Python module
+       │
+       |------          <- Scripts for the project : preprocessing, feature engineering, modelling, predictions etc.
+      
+
