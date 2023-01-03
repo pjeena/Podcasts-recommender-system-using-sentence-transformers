@@ -33,9 +33,9 @@ Cosine-similarity technique was used to recommend new podcasts based on the user
 
 ***
 * Enter a podcast(for ex Lex Fridman Podcast) which he/she has listened before
-* Enter a general theme like health, technology and machine learning , climate , language learning etc.
+* Enter a general theme or description like health, technology and machine learning , climate , language learning etc.
 
-When a user enters a query, an averaged word-embedding vector is generated and compared with the embeddings of the dataset using cosine-similarities to generate similarity scores. The top n(5 , 10 or 20....) podcasts are recommended based on the calculated similarity scores. 
+When a user enters a query, an averaged word-embedding vector is generated and compared with the embeddings of the dataset using cosine-similarities to generate similarity scores. The top n(5 , 10 or 20....) podcasts are recommended based on the similarity scores. 
 
 
 
@@ -49,7 +49,7 @@ Unlike a supervised learning model, there is no real way of validating the recom
 * Choose any two categories, let's say X and Y and calculate the cosine-similarities between every podcast in X with every podcast in Y (similarites across categories), as well as every podcast in  X with the remaining podcasts in X (similarities within a category).
 * Compare the **similarites across categories** and **similarities within a category** using a one tailed t-test to verify that the **similarites across categories** is significantly lower than **similarities within a category**.
 
-After performing the above testing, it was observed that 95% of the times, **similarites across categories** were lower than **similarities within a category** which is quite good.
+After performing the above testing, it was observed that approximately 95% of the times, **similarites across categories** were lower than **similarities within a category** which is quite good.
 
 
 ## Deployment
