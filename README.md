@@ -57,7 +57,7 @@ After performing the above testing, it was observed that approximately 95% of th
 
 ## Deployment
 
-The web UI for the system was done on [Streamlit(app.py under src)](https://podcasts-recommendation-system-using-tfidf-and-transformers.streamlit.app/). The model was also deployed on AWS EC2. 
+The web UI for the system was done on [Streamlit](https://podcasts-recommendation-system-using-tfidf-and-transformers.streamlit.app/)(app.py under src). The model was also deployed on AWS EC2. 
  
 
 ![My Image](streamlit.jpeg)
