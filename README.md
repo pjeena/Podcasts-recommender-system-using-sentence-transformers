@@ -43,7 +43,7 @@ When a user enters a query, an averaged word-embedding vector is generated and c
 
 
 
-## Evaluation
+## Model Evaluation
 
 Unlike a supervised learning model, there is no real way of validating the recommendations. Another way could be to formulate a hypothesis that a good embedding would give similarity scores from different categories as less similar compared to podcasts from within a category. The higher tha number of podcasts pairs which satisfy this hypothesis, the better will be the recommendations. The hypothesis can be tested as follows ::
 
@@ -57,7 +57,7 @@ After performing the above testing, it was observed that approximately 95% of th
 
 ## Deployment
 
-The web UI for the system was done on [Streamlit](https://podcasts-recommendation-system-using-tfidf-and-transformers.streamlit.app/)(app.py under src). The model was also deployed on AWS EC2. 
+The web UI for the system was done on [Streamlit](https://podcasts-recommendation-system-using-tfidf-and-transformers.streamlit.app/)(app.py in src folder). The model was also deployed on AWS EC2. 
  
 
 ![My Image](streamlit.jpeg)
