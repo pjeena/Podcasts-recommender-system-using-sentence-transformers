@@ -10,7 +10,7 @@ With the growth of podcasting over the past few years, it becomes increasingly d
 
 ## Data Collection
 
-Data(15000+ podcasts and the metadata) was collected through web scraping from [itunes](https://podcasts.apple.com/us/genre/podcasts/id26) and [Spotify Podcasts dataset](https://podcastsdataset.byspotify.com/).
+Data(15000+ podcasts and the metadata) was collected through web [scraping](https://github.com/pjeena/Podcasts-recommender-system-using-sentence-transformers/blob/main/data/extract_podcasts.py) from [itunes](https://podcasts.apple.com/us/genre/podcasts/id26) and [Spotify Podcasts dataset](https://podcastsdataset.byspotify.com/).
 
 Example sample data point:
 {
