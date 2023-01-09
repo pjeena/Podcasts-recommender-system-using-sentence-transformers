@@ -65,7 +65,7 @@ Unlike a supervised learning model, there is no real way of validating the recom
 * Choose any two categories, let's say X and Y and calculate the cosine-similarities between every podcast in X with every podcast in Y (similarites across categories), as well as every podcast in  X with the remaining podcasts in X (similarities within a category).
 * Compare the **similarites across categories** and **similarities within a category** using a one tailed t-test to verify that the **similarites across categories** is significantly lower than **similarities within a category**.
 
-After performing the above testing, it was observed that approximately 95% of the times, **similarites across categories** were lower than **similarities within a category** which is quite good.
+After performing the above testing, it was observed that approximately ~90% of the times, **similarites across categories** were lower than **similarities within a category** which is quite good.
 
 
 ## Deployment
