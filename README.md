@@ -13,15 +13,24 @@ With the growth of podcasting over the past few years, it becomes increasingly d
 Data(15000+ podcasts and the metadata) was collected through web [scraping](https://github.com/pjeena/Podcasts-recommender-system-using-sentence-transformers/blob/main/data/extract_podcasts.py) from [itunes](https://podcasts.apple.com/us/genre/podcasts/id26) and [Spotify Podcasts dataset](https://podcastsdataset.byspotify.com/).
 
 Example sample data point:
+
 {
   "id" : 'id1434243584,
+  
   "name" : 'Lex Fridman Podcast',
+  
   "url" : 'https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584',
+  
   "studio" : 'Lex Fridman',
+  
   "category" :"Technology",
+  
   "episode_count" : 300,
+  
   "avg_rating" : 4.8,
+  
   "total_ratings":8300,
+  
   "description":'Conversations about science, technology, history, philosophy and the nature of intelligence, consciousness, love, and power. Lex is an AI researcher at MIT and beyond.'
 }
 
