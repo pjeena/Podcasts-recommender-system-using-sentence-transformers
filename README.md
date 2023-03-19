@@ -1,7 +1,7 @@
 # Apple podcast recommendation system using Tf-IDF and transformers
 by Piyush Jeena
 
-APP LINK : [Podcasts Recommendation Engine](https://podcasts-recommendation-system-using-tfidf-and-transformers.streamlit.app)
+APP LINK : [Podcasts Recommendation Engine](https://podcasts-recommendation-system-using-tfidf-and-transformers.streamlit.app/)
 
 
 ## Overview 
