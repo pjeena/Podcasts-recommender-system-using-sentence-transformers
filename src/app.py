@@ -32,7 +32,7 @@ dataExploration = st.container()
 
 with siteHeader:
     st.title('Podcast Recommendation System')
-    st.markdown("by :red[**Piyush Jeena**] :computer:")
+    st.markdown("by :red[**Piyush**] :computer:")
 
 with dataExploration:
     user_choice = st.selectbox('**How would you like to get podcast recommendations?**',
